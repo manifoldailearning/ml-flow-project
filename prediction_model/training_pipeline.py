@@ -64,10 +64,10 @@ def mlflow_logs(model, X, y, name):
         mlflow.end_run()
 
 def perform_training():
+    mlflow.set_experiment("Loan_prediction")
     train_data = load_dataset(config.TRAIN_FILE)
     train_y = train_data[config.TARGET].map({'N':0,'Y':1})
     X_train,X_test,y_train,y_test = train_test_split(train_data[config.FEATURES], train_y,random_state=6,test_size=0.3)
-    mlflow.set_experiment("Loan_prediction")
     pipe.classification_pipeline.fit(X_train,y_train)
     mlflow_logs(pipe.classification_pipeline,X_test,y_test,"LogisticRegression")
     pipe.classification_pipeline_dt.fit(X_train,y_train)
