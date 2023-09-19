@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/nachiketh/Desktop/nachiketh-next-course/nachiketh-work/ml-flow-manage/mlruns/546095415631552807/0c87fffc1660490990d0d67587fc9253/artifacts
+end_time: 1695111678328
+entry_point_name: ''
+experiment_id: '546095415631552807'
+lifecycle_stage: active
+run_id: 0c87fffc1660490990d0d67587fc9253
+run_name: DecisionTree
+run_uuid: 0c87fffc1660490990d0d67587fc9253
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695111677371
+status: 3
+tags: []
+user_id: nachiketh

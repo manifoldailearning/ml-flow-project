@@ -13,7 +13,6 @@ MODEL_NAME = 'classification.pkl'
 SAVE_MODEL_PATH = os.path.join(PACKAGE_ROOT,'trained_models')
 
 TARGET = 'Loan_Status'
-
 #Final features used in the model
 FEATURES = ['Gender', 'Married', 'Dependents', 'Education',
        'Self_Employed', 'ApplicantIncome', 'CoapplicantIncome', 'LoanAmount',

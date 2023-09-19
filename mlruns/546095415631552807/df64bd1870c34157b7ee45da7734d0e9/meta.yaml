@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/nachiketh/Desktop/nachiketh-next-course/nachiketh-work/ml-flow-manage/mlruns/546095415631552807/df64bd1870c34157b7ee45da7734d0e9/artifacts
+end_time: 1695111424546
+entry_point_name: ''
+experiment_id: '546095415631552807'
+lifecycle_stage: active
+run_id: df64bd1870c34157b7ee45da7734d0e9
+run_name: RandomForest
+run_uuid: df64bd1870c34157b7ee45da7734d0e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695111423583
+status: 3
+tags: []
+user_id: nachiketh

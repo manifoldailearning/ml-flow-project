@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/nachiketh/Desktop/nachiketh-next-course/nachiketh-work/ml-flow-manage/mlruns/546095415631552807/4158d8b17f914e0fa2640645fba76127/artifacts
+end_time: 1695111679554
+entry_point_name: ''
+experiment_id: '546095415631552807'
+lifecycle_stage: active
+run_id: 4158d8b17f914e0fa2640645fba76127
+run_name: caring-flea-475
+run_uuid: 4158d8b17f914e0fa2640645fba76127
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695111674337
+status: 3
+tags: []
+user_id: nachiketh
