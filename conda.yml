@@ -1,5 +1,5 @@
 channels:
-- conda-forge
+- defaults
 dependencies:
 - python=3.11.3
 - pip<=23.1.2
@@ -10,10 +10,9 @@ dependencies:
   - numpy==1.24.3
   - packaging==23.0
   - pathlib==1.0.1
-  - prediction-model==1.0.0
   - psutil==5.9.0
   - pyyaml==6.0
   - scikit-learn==1.2.2
   - scipy==1.10.1
-  - prediction_model @ git+https://github.com/manifoldailearning/ml-flow-project.git
+  - prediction_model @ git+https://github.com/manifoldailearning/ml-flow-project.git@main
 name: Loan_prediction
