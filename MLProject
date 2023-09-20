@@ -1,6 +1,0 @@
-name: Loan_prediction
-conda_env: conda.yml
-
-entry_points:
-  main:
-    command: "python prediction_model/training_pipeline.py"
